@@ -1,0 +1,62 @@
+.section_row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.customer_info {
+  padding-top: 14px;
+  padding-bottom: 6px;
+}
+
+.section_date_of_birth {
+  display: flex;
+}
+
+.gender {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.section_left {
+  width: auto;
+}
+
+.section_right {
+  width: auto;
+}
+
+.date_of_birth {
+  padding-bottom: 6px;
+}
+
+.day {
+  padding-left: 14px;
+}
+
+.month {
+  padding-left: 14px;
+}
+
+.year {
+  padding-left: 14px;
+}
+
+.details {
+  padding: 14px;
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .section_row {
+    grid-template-columns: 1fr;
+  }
+  .section_left {
+    width: auto;
+  }
+  .section_right {
+    width: auto;
+  }
+}

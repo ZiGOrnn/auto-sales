@@ -1,0 +1,16 @@
+.content {
+  overflow: auto;
+  height: 100vh;
+  background: #ffffff;
+}
+
+.section_row {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 1%;
+}
+
+.inner_section {
+ margin-right: 5px;
+}

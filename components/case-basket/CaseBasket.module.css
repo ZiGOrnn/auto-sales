@@ -1,0 +1,36 @@
+.end_action {
+  display: block;
+}
+
+.end_action_mobile {
+  display: none;
+}
+
+.chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .end_action {
+    display: none;
+  }
+
+  .end_action_mobile {
+    display: block;
+    z-index: 1000;
+  }
+}
+
+/* iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 684px) {
+  .end_action {
+    display: none;
+  }
+
+  .end_action_mobile {
+    display: block;
+  }
+}

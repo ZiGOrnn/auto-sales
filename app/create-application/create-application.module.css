@@ -1,0 +1,60 @@
+.step_divider {
+  padding-top: 16px;
+}
+
+.product_type {
+  padding: 0 14px 16px 14px;
+}
+
+.divider_from_product {
+  position: sticky;
+  background-color: white;
+  top: 49px;
+  z-index: 1000;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.selfie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.photo_id {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.selfie_row {
+  display: flex;
+  gap: 14px;
+}
+
+.tour {
+  width: 100%;
+}
+
+.tour > div {
+  position: unset !important;
+}
+
+.tour_image {
+  padding-top: 12px;
+  object-fit: contain;
+  width: 100% !important;
+  max-width: 600px !important;
+  position: relative !important;
+  height: unset !important;
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .selfie_row {
+    flex-direction: column;
+  }
+}

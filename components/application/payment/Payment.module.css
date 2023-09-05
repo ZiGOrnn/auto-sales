@@ -1,0 +1,32 @@
+.payment {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.payment_row {
+  display: flex;
+  gap: 14px;
+}
+
+.exprity_date {
+  width: 65%;
+}
+
+.cvv {
+  flex: 1;
+}
+
+.prompt_pay {
+  margin: auto;
+  text-align: center;
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .payment_row {
+    flex-direction: column;
+  }
+  .exprity_date {
+    width: auto;
+  }
+}

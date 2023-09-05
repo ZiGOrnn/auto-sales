@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.wrapper {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+}
+
+.fixed_wrapper {
+  position: absolute;
+  top: -70px;
+}
+
+.start_score {
+  position: absolute;
+  text-align: center;
+  top: 140px;
+  left: 45px;
+}
+
+.end_score {
+  position: absolute;
+  text-align: center;
+  top: 140px;
+  right: 35px;
+}
+
+.credit_score {
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  top: 88px;
+}
+
+.list {
+  position: absolute;
+  bottom: 0px;
+}

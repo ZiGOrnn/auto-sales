@@ -1,0 +1,29 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.title {
+  padding-top: 16px;
+}
+
+.sig_canvas {
+  width: fit-content;
+  border: 1px solid #f2f2f2f2;
+  margin: auto;
+}
+
+.sig_button {
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}

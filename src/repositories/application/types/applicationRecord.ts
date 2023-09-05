@@ -1,0 +1,42 @@
+import { CarModelRecord } from "../../car/types/carModelRecord";
+import { CostomerRecord } from "../../costomer/types/costomerRecord";
+import { BrandRecord } from "../../types/brandRecord";
+import { BundleRecord } from "../../types/bundleRecord";
+import { CarModelImageRecord } from "../../types/carModelImageRecord";
+import { DebtRecord } from "../../types/debtRecord";
+import { Expand } from "../../types/expand";
+import { IncomeRecord } from "../../types/incomeRecord";
+import { YearRecord } from "../../types/yearRecord";
+import { ApplicationStatus } from "./createApplicationRecord";
+
+export interface ApplicationRecord {
+  id: string;
+  collectionId: string;
+  collectionName: string;
+  created: string;
+  updated: string;
+  user: string;
+  loan_coverage: number;
+  loan_interest_rate: number;
+  loan_installment_month: number;
+  loan_duration_year: number;
+  verified: boolean;
+  otp: string;
+  income: IncomeRecord;
+  debt: DebtRecord;
+  costomer_info: CostomerRecord;
+  product_type: string;
+  brand: BrandRecord;
+  car_model: CarModelRecord;
+  car_model_image: CarModelImageRecord;
+  year_model: YearRecord;
+  signature: string;
+  bundle: BundleRecord;
+  bundle_coverage: number;
+  bundle_duration_year: number;
+  my_case: string;
+  status: ApplicationStatus;
+  score: number;
+  watched: boolean;
+  expand?: Expand;
+}
